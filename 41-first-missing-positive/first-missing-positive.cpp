@@ -26,10 +26,6 @@ public:
         }
 
         int ans = n+1;
-        for(int i =0;i<n; i++){
-            cout<<nums[i]<<" ";
-        }
-        cout<<endl;
         for(int i =0; i<n; i++){
             int curr = nums[i];
             if(curr >0){
