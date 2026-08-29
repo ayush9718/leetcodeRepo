@@ -38,6 +38,8 @@ public:
         dfs2(root->right,k-1);
         dfs2(parent[root],k-1);
 
+        visited[root] = false;
+
         return ;
     }
 
